@@ -3,7 +3,7 @@
 
 # Pré-requisitos
 - Antes de começar, certifique-se de ter o Whisper instalado. Você pode instalá-lo usando:
-pip install whisper
+- pip install whisper
 
 # Uso
 Baixe o modelo Whisper pré-treinado:
@@ -11,15 +11,15 @@ Baixe o modelo Whisper pré-treinado:
 - unzip base_model.zip -d base_model
 
 # Adicione o código ao seu projeto:
-import whisper
-modelo = whisper.load_model("base_model")
-resposta = modelo.transcribe("seu_audio.mp3")
-print(resposta)
-Certifique-se de substituir "seu_audio.mp3" pelo caminho do seu próprio arquivo de áudio.
+- import whisper
+- modelo = whisper.load_model("base_model")
+- resposta = modelo.transcribe("seu_audio.mp3")
+- print(resposta)
+- Certifique-se de substituir "seu_audio.mp3" pelo caminho do seu próprio arquivo de áudio.
 
 # Execute o script:
-python seu_script.py
-Isso imprimirá a transcrição do áudio no console.
+- python seu_script.py
+- Isso imprimirá a transcrição do áudio no console.
 
 # Contribuições
 - Contribuições são bem-vindas! Se você encontrar problemas ou melhorias, sinta-se à vontade para abrir uma issue ou enviar um pull request.
